@@ -1,8 +1,6 @@
 #!/bin/bash
 
-APP_DIR=/opt/app
-
-mkdir -p $APP_DIR
+APP_DIR=/opt/app-root/src
 
 git clone --depth 1 https://github.com/jcantrill/service-example.git $APP_DIR
 

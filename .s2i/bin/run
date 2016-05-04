@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_DIR=/opt/app
+APP_DIR=/opt/app-root/src
 
 cd $APP_DIR
 node index.js
