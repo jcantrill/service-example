@@ -2,8 +2,10 @@
 
 APP_DIR=/opt/app-root/src
 
-rm -rf $APP_DIR/*
-git clone --depth 1 https://github.com/jcantrill/service-example.git $APP_DIR
+tmp=`mktemp -d`
+git clone --depth 1 https://github.com/jcantrill/service-example.git $tmp
+cp $tmp/* $APP_DIR
+rm -rf $tmp
 
 cd $APP_DIR
 
