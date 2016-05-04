@@ -1,4 +1,4 @@
-A sample to demonstrate a consumer and producer of a service
+A sample to demonstrate a consumer and producer of an openshift service
 
 To install dependencies:
 
