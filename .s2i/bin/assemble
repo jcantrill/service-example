@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 APP_DIR=/opt/app-root/src
 
