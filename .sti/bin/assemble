@@ -1,0 +1,12 @@
+#!/bin/bash
+
+APP_DIR=/opt/app
+
+mkdir -p $APP_DIR
+
+git clone --depth 1 https://github.com/jcantrill/service-example.git $APP_DIR
+
+cd $APP_DIR
+
+npm install
+
