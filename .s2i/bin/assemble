@@ -2,6 +2,7 @@
 
 APP_DIR=/opt/app-root/src
 
+rm -rf $APP_DIR/*
 git clone --depth 1 https://github.com/jcantrill/service-example.git $APP_DIR
 
 cd $APP_DIR
